@@ -1,0 +1,19 @@
+{
+  "etcd集群地址列表": "多个地址",
+  "etcdEndPoints": ["120.79.167.42:2379"],
+  "etcd连接超时时间": "单位是毫秒",
+  "etcdDialTimeout": 5000,
+
+  "mongodb地址": "地址",
+  "mongodbUri": "mongodb://120.79.167.42:27017",
+  "mongodb超时时间": "单位是毫秒",
+  "mongodbConnectTimeout": 5000,
+
+  "日志初始通道长度": "长度",
+  "logChanLength": 1000,
+
+  "日志批次大小": "满足这个数值即提交到mongoDB",
+  "logBatchLength": 10,
+  "日志自动提交时间": "单位毫秒",
+  "logCommitTime": 1000
+}

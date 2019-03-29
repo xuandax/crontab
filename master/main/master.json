@@ -1,0 +1,22 @@
+{
+  "API服务提供端口": "提供增删改查服务",
+  "apiPort": 8102,
+
+  "Api接口读超时": "单位是毫秒",
+  "writeTimeout": 5000,
+  "Api接口写超时": "单位是毫秒",
+  "readTimeout": 5000,
+
+  "etcd集群列表": "配置多个，防止单点故障",
+  "etcdEndPoints": ["120.79.167.42:2379"],
+  "etcd连接超时时间": "单位是毫秒",
+  "etcdDialTimeout": 5000,
+
+  "web页面根目录": "静态文件",
+  "webroot": "src/github.com/xuanxiaox/crontab/master/main/webroot",
+
+  "mongodb地址": "地址",
+  "mongodbUri": "mongodb://120.79.167.42:27017",
+  "mongodb超时时间": "单位是毫秒",
+  "mongodbConnectTimeout": 5000
+}
